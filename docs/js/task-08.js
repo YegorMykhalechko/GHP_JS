@@ -13,6 +13,7 @@ function getAmount() {
 function createBoxes(amount) {
     const basicSize = 30;
     const fragment = document.createDocumentFragment();
+    //size
     for (let i = 0; i < amount; i += 1) {
         const size = basicSize + 10;
         const div = document.createElement("div");
